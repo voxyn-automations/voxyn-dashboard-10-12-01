@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12T00:51:21.207062+05:30",
+  "as_of": "2026-10-12T00:53:40.941004+05:30",
   "brand": {
     "name": "Venky",
     "timezone": "Asia/Kolkata"
@@ -7,11 +7,11 @@
   "daily_history": [],
   "evidence": {
     "automation_execution_enabled": true,
-    "dry_run": true,
+    "dry_run": false,
     "linkedin_access": "CONFIGURED_UNVERIFIED",
-    "publisher_enabled": false,
-    "publisher_mode": "PAUSED_BY_CONFIGURATION",
-    "publisher_reason": "PUBLISHER_DISABLED",
+    "publisher_enabled": true,
+    "publisher_mode": "LIVE",
+    "publisher_reason": "LIVE_CONFIGURATION",
     "safe_launch_verified": false
   },
   "next_post": null,
@@ -89,7 +89,7 @@
     "ai_provider": "UNKNOWN",
     "content_engine": "UNKNOWN",
     "linkedin": "READY",
-    "publisher": "PAUSED",
+    "publisher": "READY",
     "scheduler": "UNKNOWN",
     "slack": "UNKNOWN",
     "source_pipeline": "UNKNOWN"
@@ -105,7 +105,7 @@
     "ready": 0,
     "source_insufficient": 0
   },
-  "updated_at": "2026-10-12T00:51:21.207062+05:30",
+  "updated_at": "2026-10-12T00:53:40.941004+05:30",
   "workflows": [
     {
       "count": null,
@@ -119,13 +119,13 @@
     },
     {
       "count": null,
-      "enabled": false,
+      "enabled": true,
       "id": "linkedin_publisher",
       "label": "LinkedIn Publisher",
       "observed_at": "",
-      "outcome": "DISABLED",
-      "reason": "CONFIGURATION_DISABLED",
-      "state": "PAUSED"
+      "outcome": "UNVERIFIED",
+      "reason": "NOT_OBSERVED",
+      "state": "DUE_NOT_OBSERVED"
     },
     {
       "count": null,
@@ -142,10 +142,10 @@
       "enabled": true,
       "id": "dashboard_sync",
       "label": "Dashboard Sync",
-      "observed_at": "2026-10-11T19:08:17Z",
-      "outcome": "NONE",
+      "observed_at": "2026-10-11T19:21:26Z",
+      "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
-      "state": "SKIPPED"
+      "state": "SUCCEEDED"
     }
   ]
 }
