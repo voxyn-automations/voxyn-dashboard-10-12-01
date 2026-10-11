@@ -1,10 +1,23 @@
 {
-  "as_of": "2026-10-12T00:53:40.941004+05:30",
+  "as_of": "2026-10-12T01:03:09.811371+05:30",
   "brand": {
     "name": "Venky",
     "timezone": "Asia/Kolkata"
   },
-  "daily_history": [],
+  "daily_history": [
+    {
+      "auth_required": 0,
+      "date": "2026-10-12",
+      "expected": 5,
+      "failed": 0,
+      "generated": 5,
+      "missed": 0,
+      "posted": 0,
+      "processing": 0,
+      "ready": 5,
+      "source_insufficient": 0
+    }
+  ],
   "evidence": {
     "automation_execution_enabled": true,
     "dry_run": false,
@@ -14,7 +27,12 @@
     "publisher_reason": "LIVE_CONFIGURATION",
     "safe_launch_verified": false
   },
-  "next_post": null,
+  "next_post": {
+    "post_type": "IMAGE",
+    "scheduled_local": "08:30",
+    "status": "READY",
+    "topic": "Next production post"
+  },
   "profile": "public_pages",
   "publisher_grace_minutes": 70,
   "publishing_block": null,
@@ -22,110 +40,117 @@
     {
       "post_type": "IMAGE",
       "scheduled_local": "08:30",
-      "status": "UNKNOWN",
+      "status": "READY",
       "topic": "Slot 1"
     },
     {
       "post_type": "IMAGE",
       "scheduled_local": "10:55",
-      "status": "UNKNOWN",
+      "status": "READY",
       "topic": "Slot 2"
     },
     {
       "post_type": "IMAGE",
       "scheduled_local": "13:30",
-      "status": "UNKNOWN",
+      "status": "READY",
       "topic": "Slot 3"
     },
     {
       "post_type": "IMAGE",
       "scheduled_local": "16:30",
-      "status": "UNKNOWN",
+      "status": "READY",
       "topic": "Slot 4"
     },
     {
       "post_type": "IMAGE",
       "scheduled_local": "17:30",
-      "status": "UNKNOWN",
+      "status": "READY",
       "topic": "Slot 5"
     }
   ],
-  "recent_activity": [],
+  "recent_activity": [
+    {
+      "at": "2026-10-12",
+      "count": 1,
+      "kind": "DAILY_GENERATION",
+      "result": "SUCCESS"
+    }
+  ],
   "schedule": [
     {
       "local_time": "08:30",
       "post_type": "IMAGE",
       "slot": "Slot 1",
-      "status": "UNKNOWN"
+      "status": "READY"
     },
     {
       "local_time": "10:55",
       "post_type": "IMAGE",
       "slot": "Slot 2",
-      "status": "UNKNOWN"
+      "status": "READY"
     },
     {
       "local_time": "13:30",
       "post_type": "IMAGE",
       "slot": "Slot 3",
-      "status": "UNKNOWN"
+      "status": "READY"
     },
     {
       "local_time": "16:30",
       "post_type": "IMAGE",
       "slot": "Slot 4",
-      "status": "UNKNOWN"
+      "status": "READY"
     },
     {
       "local_time": "17:30",
       "post_type": "IMAGE",
       "slot": "Slot 5",
-      "status": "UNKNOWN"
+      "status": "READY"
     }
   ],
   "schema_version": 5,
   "snapshot_date": "2026-10-12",
   "system": {
-    "ai_provider": "UNKNOWN",
-    "content_engine": "UNKNOWN",
+    "ai_provider": "HEALTHY",
+    "content_engine": "HEALTHY",
     "linkedin": "READY",
     "publisher": "READY",
     "scheduler": "UNKNOWN",
-    "slack": "UNKNOWN",
-    "source_pipeline": "UNKNOWN"
+    "slack": "READY",
+    "source_pipeline": "HEALTHY"
   },
   "today": {
     "auth_required": 0,
     "configured": 5,
     "failed": 0,
-    "generated": 0,
+    "generated": 5,
     "missed": 0,
     "posted": 0,
     "processing": 0,
-    "ready": 0,
+    "ready": 5,
     "source_insufficient": 0
   },
-  "updated_at": "2026-10-12T00:53:40.941004+05:30",
+  "updated_at": "2026-10-12T01:03:09.811371+05:30",
   "workflows": [
     {
       "count": null,
       "enabled": true,
       "id": "daily_generation",
       "label": "Daily content generation and Slack delivery",
-      "observed_at": "2026-10-11T19:08:14Z",
+      "observed_at": "2026-10-11T19:32:47Z",
       "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
     },
     {
-      "count": null,
+      "count": 0,
       "enabled": true,
       "id": "linkedin_publisher",
       "label": "LinkedIn Publisher",
-      "observed_at": "",
-      "outcome": "UNVERIFIED",
-      "reason": "NOT_OBSERVED",
-      "state": "DUE_NOT_OBSERVED"
+      "observed_at": "2026-10-11T19:29:16Z",
+      "outcome": "NO_ELIGIBLE_POSTS",
+      "reason": "RECORDED_OUTCOME",
+      "state": "SUCCEEDED"
     },
     {
       "count": null,
@@ -142,7 +167,7 @@
       "enabled": true,
       "id": "dashboard_sync",
       "label": "Dashboard Sync",
-      "observed_at": "2026-10-11T19:21:26Z",
+      "observed_at": "2026-10-11T19:29:29Z",
       "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
