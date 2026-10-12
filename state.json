@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-12T08:58:59.569562+05:30",
+  "as_of": "2026-10-12T09:22:16.192428+05:30",
   "brand": {
     "name": "Venky",
     "timezone": "Asia/Kolkata"
@@ -21,7 +21,7 @@
   "evidence": {
     "automation_execution_enabled": true,
     "dry_run": false,
-    "linkedin_access": "CONFIGURED_UNVERIFIED",
+    "linkedin_access": "VERIFIED",
     "publisher_enabled": true,
     "publisher_mode": "LIVE",
     "publisher_reason": "LIVE_CONFIGURATION",
@@ -136,7 +136,7 @@
     "ready": 4,
     "source_insufficient": 0
   },
-  "updated_at": "2026-10-12T08:58:59.569562+05:30",
+  "updated_at": "2026-10-12T09:22:16.192428+05:30",
   "workflows": [
     {
       "count": null,
@@ -163,17 +163,17 @@
       "enabled": true,
       "id": "linkedin_auth_health",
       "label": "LinkedIn authorization check",
-      "observed_at": "",
-      "outcome": "UNVERIFIED",
-      "reason": "NOT_OBSERVED",
-      "state": "DUE_NOT_OBSERVED"
+      "observed_at": "2026-10-12T03:51:11Z",
+      "outcome": "SUCCESS",
+      "reason": "RECORDED_OUTCOME",
+      "state": "SUCCEEDED"
     },
     {
       "count": null,
       "enabled": true,
       "id": "dashboard_sync",
       "label": "Dashboard Sync",
-      "observed_at": "2026-10-11T19:33:17Z",
+      "observed_at": "2026-10-12T03:29:05Z",
       "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
