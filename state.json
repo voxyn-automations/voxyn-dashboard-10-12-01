@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-13T12:15:56.994562+05:30",
+  "as_of": "2026-10-14T00:45:13.525715+05:30",
   "brand": {
     "name": "Venky",
     "timezone": "Asia/Kolkata"
@@ -110,7 +110,7 @@
     }
   ],
   "schema_version": 5,
-  "snapshot_date": "2026-10-13",
+  "snapshot_date": "2026-10-14",
   "system": {
     "ai_provider": "HEALTHY",
     "content_engine": "HEALTHY",
@@ -131,7 +131,7 @@
     "ready": 0,
     "source_insufficient": 0
   },
-  "updated_at": "2026-10-13T12:15:56.994562+05:30",
+  "updated_at": "2026-10-14T00:45:13.525715+05:30",
   "workflows": [
     {
       "count": null,
@@ -139,19 +139,19 @@
       "id": "daily_generation",
       "label": "Daily content generation and Slack delivery",
       "observed_at": "2026-10-11T19:32:47Z",
-      "outcome": "SUCCESS",
+      "outcome": "UNVERIFIED",
       "reason": "RECORDED_OUTCOME",
-      "state": "SUCCEEDED"
+      "state": "UNKNOWN_STALE"
     },
     {
-      "count": 1,
+      "count": null,
       "enabled": true,
       "id": "linkedin_publisher",
       "label": "LinkedIn Publisher",
       "observed_at": "2026-10-12T03:28:38Z",
-      "outcome": "SUCCESS",
+      "outcome": "UNVERIFIED",
       "reason": "RECORDED_OUTCOME",
-      "state": "SUCCEEDED"
+      "state": "UNKNOWN_STALE"
     },
     {
       "count": null,
@@ -159,16 +159,16 @@
       "id": "linkedin_auth_health",
       "label": "LinkedIn authorization check",
       "observed_at": "2026-10-12T03:51:11Z",
-      "outcome": "SUCCESS",
+      "outcome": "UNVERIFIED",
       "reason": "RECORDED_OUTCOME",
-      "state": "SUCCEEDED"
+      "state": "UNKNOWN_STALE"
     },
     {
       "count": null,
       "enabled": true,
       "id": "dashboard_sync",
       "label": "Dashboard Sync",
-      "observed_at": "2026-10-12T21:16:04Z",
+      "observed_at": "2026-10-13T06:46:02Z",
       "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
