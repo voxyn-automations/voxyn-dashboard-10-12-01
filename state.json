@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-11-03T12:14:22.486400+05:30",
+  "as_of": "2026-11-04T00:59:31.108008+05:30",
   "brand": {
     "name": "Venky",
     "timezone": "Asia/Kolkata"
@@ -110,7 +110,7 @@
     }
   ],
   "schema_version": 5,
-  "snapshot_date": "2026-11-03",
+  "snapshot_date": "2026-11-04",
   "system": {
     "ai_provider": "HEALTHY",
     "content_engine": "HEALTHY",
@@ -131,7 +131,7 @@
     "ready": 0,
     "source_insufficient": 0
   },
-  "updated_at": "2026-11-03T12:14:22.486400+05:30",
+  "updated_at": "2026-11-04T00:59:31.108008+05:30",
   "workflows": [
     {
       "count": null,
@@ -168,7 +168,7 @@
       "enabled": true,
       "id": "dashboard_sync",
       "label": "Dashboard Sync",
-      "observed_at": "2026-11-02T21:42:09Z",
+      "observed_at": "2026-11-03T06:44:29Z",
       "outcome": "SUCCESS",
       "reason": "RECORDED_OUTCOME",
       "state": "SUCCEEDED"
